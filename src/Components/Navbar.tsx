@@ -17,8 +17,6 @@ import { EMAIL_ADDRESS, NAVBAR_ITEM } from '@/constants/Constants';
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  console.log(isMenuOpen);
-
   return (
     <NextUiNavbar onMenuOpenChange={setIsMenuOpen} isMenuOpen={isMenuOpen}>
       <NavbarContent>

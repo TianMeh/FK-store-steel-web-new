@@ -13,7 +13,6 @@ function BaseContainer({
     <>
       <MetaHead title={meta.title} description={meta.description} />
       <Navbar />
-
       <div className="bg-gr-blue min-h-screen w-[100%]">{children}</div>
     </>
   );

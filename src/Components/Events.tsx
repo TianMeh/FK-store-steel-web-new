@@ -16,23 +16,30 @@ function Events() {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
-    padding: '2rem',
   };
 
   return (
-    <section className="pt-20" style={sectionStyle} id="dogodki">
-      <div className={`flex flex-col  items-center justify-center `}>
-        <h1 className=" text-4xl">Razstave in Dogodki</h1>
-        <p className="mt-6">
-          Če bi bilo enostavno in vse po pravilih, bi bilo dolgčas. Nam ni
-          nikoli.
-        </p>
-      </div>
-      <div className=" flex flex-wrap justify-center items-center gap-6 mt">
-        <div className="flex max-w-[70rem] justify-center items-center flex-wrap gap-6">
-          {imgs.map((img) => (
-            <Image key={img} alt="Razstava" src={img} className="max-w-80" />
-          ))}
+    <section style={sectionStyle} id="dogodki">
+      <div className="px-10 py-20 md:p-20 text-center md:text-left">
+        <div className={`flex flex-col items-center justify-center pb-10`}>
+          <h1 className=" text-4xl">Razstave in Dogodki</h1>
+          <p className="mt-2">
+            Če bi bilo enostavno in vse po pravilih, bi bilo dolgčas. Nam ni
+            nikoli.
+          </p>
+        </div>
+        <div className=" flex flex-wrap justify-center items-center gap-6">
+          <div className="flex max-w-[70rem] justify-center items-center flex-wrap gap-6">
+            {imgs.map((img, i) => (
+              <Image
+                key={img}
+                alt="Razstava"
+                src={img}
+                className={`max-w-80 lg:flex ${i > 1 && 'hidden'}`}
+                classNames={{ wrapper: `lg:flex ${i > 1 && 'hidden'}` }}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>

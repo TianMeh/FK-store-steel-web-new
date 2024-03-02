@@ -7,26 +7,27 @@ import { CiFacebook } from 'react-icons/ci';
 function AboutUs() {
   const sectionStyle = {
     backgroundImage:
-      'linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/studio-bg.jpg")',
+      'linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/roza.jpg")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
-    padding: '2rem',
   };
 
   return (
-    <section className="pt-10" style={sectionStyle} id="o-nas">
+    <section style={sectionStyle} id="o-nas">
       <div
-        className={`flex flex-col md:flex-row items-center justify-center md:gap-[10rem] gap-6 `}
+        className={`flex flex-col md:flex-row items-center justify-center lg:gap-[10rem] gap-6 p-20`}
       >
         <Image
           alt="O Nas"
           src="/o-nas.jpg"
           width={400}
-          className="max-w-[18rem] sm:max-w-none"
+          className="max-w-[14rem] md:max-w-none"
         />
         <div className=" text-center max-w-[38rem] text-small md:text-medium">
-          <h1 className="text-left md:text-4xl mb-4">O Nas</h1>
+          <h1 className=" lg:text-4xl text-2xl lg:mb-4 mb-2 md:text-left ">
+            O Nas
+          </h1>
           <p className="md:text-left">
             Zbralo se nas je 11, ki radi fotografiramo: Fredi, Barbara, Blaž,
             Sebastijan, Simon, Rosvita, Matjaž, Klara, Kristijan, Brigita in
