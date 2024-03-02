@@ -7,6 +7,7 @@ export const META_DATA = {
 export const SOCIAL_LINK = {
   INSTAGRAM: 'https://www.instagram.com/dimenzijapeta/',
   FACEBOOK: 'https://www.facebook.com/petadimenzija5D',
+  FACEBOOK_ST: 'https://www.facebook.com/fotoklubstoresteel',
 };
 
 export const NAVBAR_ITEM = [

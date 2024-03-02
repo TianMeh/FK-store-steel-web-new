@@ -15,7 +15,7 @@ const Footer = () => {
             <li>
               <Link
                 target="_blank"
-                href={SOCIAL_LINK.FACEBOOK}
+                href={SOCIAL_LINK.FACEBOOK_ST}
                 color="foreground"
               >
                 <BsFacebook size={25} />
