@@ -57,7 +57,7 @@ function AboutUs() {
           včasih po pravilih, včasih mimo njih, vsekakor pa izven okvirjev!
           Zakaj? KER LAHKO! In ker #MISEMAMOVEDNOFAJN!
           <div className=" flex items-center justify-center mt-3 mb-2">
-            <Link href={SOCIAL_LINK.FACEBOOK}>
+            <Link href={SOCIAL_LINK.FACEBOOK_ST}>
               <CiFacebook size={30} />
             </Link>
           </div>
