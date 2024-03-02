@@ -10,15 +10,6 @@ const Footer = () => {
   return (
     <footer className=" bg-gr-blue text-white py-8 ">
       <div className="container mx-auto flex flex-col items-center justify-center">
-        <div className="mb-6">
-          <Image
-            src={'/fk-st-logo.jpg'}
-            width={100}
-            height={100}
-            alt="FK Store Steel"
-            className="rounded-lg"
-          />
-        </div>
         <div className="mt-2">
           <ul className="flex space-x-4">
             <li>
@@ -27,7 +18,7 @@ const Footer = () => {
                 href={SOCIAL_LINK.FACEBOOK}
                 color="foreground"
               >
-                <BsFacebook />
+                <BsFacebook size={25} />
               </Link>
             </li>
             <li>
@@ -36,7 +27,7 @@ const Footer = () => {
                 href={SOCIAL_LINK.INSTAGRAM}
                 color="foreground"
               >
-                <BsInstagram />
+                <BsInstagram size={25} />
               </Link>
             </li>
           </ul>

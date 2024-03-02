@@ -20,7 +20,7 @@ export const NAVBAR_ITEM = [
   },
   {
     name: 'Fotoshootingi',
-    href: '/fotoshootingi',
+    href: '#fotoshootingi',
   },
   {
     name: 'Peta Dimenzija',
