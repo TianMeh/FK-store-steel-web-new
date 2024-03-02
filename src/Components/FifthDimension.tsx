@@ -53,14 +53,14 @@ function FifthDimension() {
             </div>
             <Image
               alt="Peta dimenzija"
-              src="/fifth-dimension-1.jpg"
+              src="/fifth-dimension-img-1.jpg"
               className=" max-h-[50vh]"
             />
           </div>
           <div>
             <Image
               alt="Peta dimenzija"
-              src="/fifth-dimension-2.jpg"
+              src="/fifth-dimension-img-2.jpg"
               className=" max-h-[70vh]"
             />
           </div>

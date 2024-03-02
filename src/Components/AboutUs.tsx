@@ -20,7 +20,7 @@ function AboutUs() {
       >
         <Image
           alt="O Nas"
-          src="/o-nas.jpg"
+          src="/about.jpg"
           width={400}
           className="max-w-[14rem] md:max-w-none"
         />

@@ -24,7 +24,7 @@ function PhotoShootings() {
             </div>
             <Image
               alt="Fotoshootingi"
-              src="/fotoshooting-1.jpg"
+              src="/fotoshooting-img-1.jpg"
               className=" max-h-[50vh]"
             />
           </div>
