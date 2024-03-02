@@ -5,7 +5,7 @@ import type { AppProps } from 'next/app';
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <NextUIProvider>
-      <main className={`dark`}>
+      <main className="dark text-foreground bg-background">
         <Component {...pageProps} />
       </main>
     </NextUIProvider>
